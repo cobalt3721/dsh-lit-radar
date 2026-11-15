@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "title": {
+    "en": "cobalt3721's DSH plugins",
+    "zh": "cobalt3721 的 DSH 插件集"
+  },
+  "description": {
+    "en": "Small, self-contained DeepSeek Harness plugins. Add this URL in Discover or Settings to browse and install them.",
+    "zh": "自包含的 DeepSeek Harness 小插件。在 Discover 或设置里加上这个索引地址即可浏览和安装。"
+  },
+  "metadata": {
+    "categories": {
+      "research": {
+        "title": { "en": "Research", "zh": "科研" }
+      }
+    },
+    "labels": {
+      "literature": {
+        "title": { "en": "Literature", "zh": "文献" }
+      },
+      "no-api-key": {
+        "title": { "en": "No API key", "zh": "免密钥" }
+      },
+      "cli": {
+        "title": { "en": "Command line", "zh": "命令行" }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-lit-radar",
+      "title": {
+        "en": "Literature radar",
+        "zh": "文献雷达"
+      },
+      "description": {
+        "en": "Watch Crossref, OpenAlex, and arXiv with your own research keywords and get back only the papers not delivered before. Ships a DSH tool, a standalone CLI, and a skill wrapper.",
+        "zh": "按你的研究关键词盯 Crossref、OpenAlex、arXiv，只返回没交付过的论文。同时提供 DSH 工具、独立 CLI 和 skill 包装。"
+      },
+      "icon": "https://raw.githubusercontent.com/cobalt3721/dsh-lit-radar/98e7d96edfa9748f9b16c7c540e6e97eb73db443/icon.svg",
+      "author": "cobalt3721",
+      "homepage": "https://github.com/cobalt3721/dsh-lit-radar#readme",
+      "repository": {
+        "url": "https://github.com/cobalt3721/dsh-lit-radar"
+      },
+      "metadata": {
+        "category": "research",
+        "labels": ["literature", "no-api-key", "cli"],
+        "keywords": [
+          "literature",
+          "papers",
+          "arxiv",
+          "crossref",
+          "openalex",
+          "research",
+          "daily digest"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1794760033,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/cobalt3721/dsh-lit-radar",
+            "commit": "98e7d96edfa9748f9b16c7c540e6e97eb73db443"
+          }
+        }
+      ]
+    }
+  ]
+}

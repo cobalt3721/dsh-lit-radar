@@ -39,6 +39,19 @@ Copy [`skill/SKILL.md`](skill/SKILL.md) to `.dsh/skills/lit-radar/SKILL.md` in y
 `~/.dsh/skills/lit-radar/SKILL.md` for every project). The skill shells out to the CLI, so it needs
 option 2 to work.
 
+**4. From a DSH plugin index** (the Discover tab)
+
+This repository publishes a [plugin-market index](market-index.json):
+
+```
+https://raw.githubusercontent.com/cobalt3721/dsh-lit-radar/main/market-index.json
+```
+
+Enable the experimental plugin-market bundle, add that URL in **Discover** (or Settings), then search
+for "literature radar". The entry pins a commit instead of a tag, so an install gets exactly the tree
+the index was validated against; to release, bump `version` and `publishTimestamp` in `market-index.json`
+and repin the commit.
+
 ## Quick start
 
 There are no default keywords — a radar is only useful with terms from your own field.
