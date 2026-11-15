@@ -1,0 +1,47 @@
+{
+  "name": "dsh-lit-radar",
+  "version": "0.2.0",
+  "description": "Literature radar for DeepSeek Harness and the command line: watch Crossref, OpenAlex, and arXiv with your own keywords and get back only the papers you have not seen yet.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "literature-review",
+    "arxiv",
+    "crossref",
+    "openalex",
+    "research-tools",
+    "cli"
+  ],
+  "bin": {
+    "lit-radar": "./cli.mjs"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./radar": "./radar.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "radar.js",
+    "cli.mjs",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "examples",
+    "skill"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "keywords": [
+    { "topic": "甲烷催化转化", "query": "methane catalytic conversion" },
+    { "topic": "甲烷裂解", "query": "methane pyrolysis" },
+    { "topic": "甲烷重整", "query": "methane reforming" },
+    { "topic": "单壁碳纳米管", "query": "single-walled carbon nanotube synthesis" },
+    { "topic": "交变电磁场催化", "query": "electromagnetic field catalysis" },
+    { "topic": "感应加热反应器", "query": "induction heating reactor" },
+    { "topic": "费托合成", "query": "Fischer-Tropsch synthesis" },
+    { "topic": "加氢裂解", "query": "hydrocracking" },
+    { "topic": "苯烷基化", "query": "benzene alkylation" },
+    { "topic": "乙苯", "query": "ethylbenzene production" },
+    { "topic": "SAF 合成", "query": "sustainable aviation fuel" },
+    { "topic": "过程集成", "query": "process integration methane" },
+    { "topic": "流程模拟", "query": "process simulation methane" },
+    { "topic": "技术经济评价", "query": "techno-economic analysis methane" },
+    { "topic": "生命周期评价", "query": "life cycle assessment methane" }
+  ]
+}

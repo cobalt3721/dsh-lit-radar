@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Literature radar",
+    "description": "Scans Crossref, OpenAlex, and arXiv for recent publications matching your research keywords and returns only the ones it has not delivered yet. Ask in chat to \"run the literature radar\" and the agent calls the lit_radar tool; every item arrives with title, venue, date, DOI, authors, and an abstract excerpt, enough to write a short brief. A scan marks what it returned as delivered, so the next scan reports only new work; manage keywords with set_keywords and see counters and the last scan time with status. All three databases are public and key-less, and no local file is read; the delivered history is kept in the lit-radar folder under the DSH home (~/.dsh/lit-radar by default). Narrow keywords give a cleaner digest, arXiv is sparse on these topics and often returns nothing in a seven-day window, and OpenAlex shares one anonymous daily budget across the whole egress IP, so it can answer 429 for the rest of the day until a mailto or openalexKey is configured. Disabling the plugin removes the tool but keeps the history."
+  }
+}

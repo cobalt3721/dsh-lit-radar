@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "文献雷达",
+    "description": "按研究关键词扫 Crossref、OpenAlex 与 arXiv 的近期文献，只返回没交付过的那部分。会话里说一句「跑一下文献雷达」，agent 就会调用 lit_radar 工具；每条都带标题、期刊、日期、DOI、作者和摘要节选，足够直接写成中文速览。扫描会把这批条目记为已读，再扫不会重复；关键词用 set_keywords 增删，已读计数和上次扫描时间用 status 查。三个库都是公开接口、不需要密钥，也不读本地文件；已读记录存在 DSH home 下的 lit-radar 目录（默认 ~/.dsh/lit-radar）。关键词定得越窄日报越干净；arXiv 在这些方向上很稀疏，7 天内常常一条都没有；OpenAlex 匿名额度按出口 IP 共享，用完当天会 429，填 mailto 或 openalexKey 可绕开。停用插件后工具消失，已读记录仍保留。"
+  }
+}
