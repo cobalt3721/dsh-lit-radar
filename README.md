@@ -20,7 +20,7 @@ Sources are [Crossref](https://api.crossref.org), [OpenAlex](https://api.openale
 **1. As a DSH plugin** (gives the agent a `lit_radar` tool)
 
 ```sh
-git clone https://github.com/<you>/dsh-lit-radar.git
+git clone https://github.com/cobalt3721/dsh-lit-radar.git
 ```
 
 Then in DSH open **Plugins → Add plugin** and point it at the cloned directory, or let the agent run
@@ -169,8 +169,7 @@ node test/scan.mjs --once --sources=crossref,arxiv   # real network, throws away
 
 Before pushing to a repository or to npm:
 
-1. Add `"repository"`, `"author"`, and `"homepage"` to `package.json`, and replace `<you>` in the clone
-   URL above.
+1. Bump `version` and commit; the `repository`, `homepage`, and `author` fields are already filled in.
 2. `npm pack --dry-run` to confirm the published file list (it is `files` plus README and LICENSE).
 3. `npm publish` if you want the `npx -y dsh-lit-radar` and skill one-liners to work; otherwise tell
    users to run `node <checkout>/cli.mjs`.

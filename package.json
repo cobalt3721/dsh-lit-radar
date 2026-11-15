@@ -4,6 +4,15 @@
   "description": "Literature radar for DeepSeek Harness and the command line: watch Crossref, OpenAlex, and arXiv with your own keywords and get back only the papers you have not seen yet.",
   "type": "module",
   "license": "MIT",
+  "author": "cobalt3721",
+  "homepage": "https://github.com/cobalt3721/dsh-lit-radar#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cobalt3721/dsh-lit-radar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cobalt3721/dsh-lit-radar/issues"
+  },
   "keywords": [
     "dsh",
     "dsh-plugin",
